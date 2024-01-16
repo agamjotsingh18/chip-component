@@ -8,7 +8,7 @@ const ChipsSearchBar: React.FC = () => {
   const [highlightedChip, setHighlightedChip] = useState<number | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const items = ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Frank', 'Grace'];
+  const items = ['Trimurti', 'Brahma', 'Vishnu', 'Shiva', 'Tridevi', 'Parvati', 'Adityas', 'Rudras','Vasus','Ashvins'];
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
